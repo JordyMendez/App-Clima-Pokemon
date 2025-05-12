@@ -1,0 +1,20 @@
+coneccion a la base de datos
+
+mongodb+srv://admin:admin@cluster0.igqby0d.mongodb.net/
+
+archivo, crearlo si no lo tienes, si lo tienes agregarlo a tu raiz(.env):
+MONGO_URI=mongodb+srv://admin:admin@cluster0.igqby0d.mongodb.net/
+JWT_SECRET=tu_secreto_para_jwt
+PORT=5000
+
+para iniciar el servidor
+npm run server
+
+Intalar en consola:
+npm install --save-dev tsx
+npm install mongoose
+npm install express mongoose dotenv cors
+npm install -D typescript @types/express @types/node ts-node-dev
+npm install mongoose bcryptjs dotenv
+npm install --save-dev @types/cors
+npm install express dotenv cors mongoose
